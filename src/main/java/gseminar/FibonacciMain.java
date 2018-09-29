@@ -2,8 +2,6 @@ package gseminar;
 
 public class FibonacciMain{
 
-	private FibonacciSrties series = new FibonacciSrties();
-
 	public void run(String[] args){
 		if(args.length == 0){
 			throw new RequiredValueMissingException("no arguments were given");
